@@ -31,7 +31,7 @@
         <div class="container py-3">
             <a href="#" class="navbar-brand primary-color">
                 <img src="img/realizaicon.jfif" alt="realiza">
-                <span>ealiza</span>
+                <span>Realiza</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expend="false" aria-label="toggle navigation">
                 <i class="bi bi-list"></i>
@@ -52,11 +52,90 @@
             </div>
         </div>
     </nav>
+    <!--NAV BAR END-->
+
     <!--SLIDER-->
     <div class="container" id="slider-container">
         <div class="carousel slide" id="slider" data-bs-ride="carousel">
-            
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">
+                    <!--carousel de imagens como duplicar com razor tb, preciso ver como funciona a api para ver se da pra colocar imagens-->
+                </button>
+                <button type="button"  data-bs-target="#slider" data-bs-slide-to="1"  aria-label="Slide 1">
+                    
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/testeimagem.jpg" alt="Nome 1" class="d-block w-100"><!--imagem do carousel posso ver se da para colocar imagens dos lanches ou o carousel inteiro pode ser descartado-->
+                    <div class="carousel-caption">
+                        <h5>Cardapio da Loja</h5>
+                        <a href="#" class="btn btn-dark">
+                            Ver Cardapio
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item"><!--Posso multiplar com razor-->
+                    <img src="img/testeimagem-2.jpg" alt="Nome 2" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Cardapio da Loja</h5>
+                        <a href="#" class="btn btn-dark">
+                            Ver Cardapio
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </div> 
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-box primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">
+                                Ver Cardapio
+                            </h5>
+                            <p class="card-text primary-color">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="Saber Mais" class="btn btn-dark">Saber Mais</a><!--Botão do mini banner se necesasrio pode ser descartado-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4"><!--Posso multiplicar usando razor esse bloco para fazer mini banner caso não ter como fazer nada com ele pode ser descartado-->
+                    <div class="card text-center">
+                        <i class="bi bi-box primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">
+                                Ver Cardapio
+                            </h5>
+                            <p class="card-text primary-color">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="Saber Mais" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--MINI BANNERS-->
+    </div>
+    <!--SLIDER END--> 
+
+    
 </body>
 </html>
+
+<!--TEMPO QUE PAREI DO VIDEO 59:00-->
