@@ -98,7 +98,7 @@
     background-color: #000;
 }
 
-@media(min-width: 768px){
+@media(min-width: 800px){
     #slider .carousel-caption {
         bottom: 15em;
     }
